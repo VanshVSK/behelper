@@ -1,0 +1,364 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+/* navabnr */
+/* navbar */
+.nav{
+  display: flex;
+  width: 100vw;
+  position: fixed;
+  z-index: 1000;
+  height: 10vh;
+  top: 0px;
+  box-shadow: rgba(112, 121, 131, 0.2) 0px 8px 24px;
+  flex-direction: row;
+  z-index: 1000;
+  height: 10vh;
+  align-items: center;
+}
+.ham{
+  align-self: flex-end;
+  width: 60px;
+  display: none;
+  justify-content: center;
+  margin-right: 30px;
+  flex-direction: column;
+  align-items: center;
+  height: 70px;
+}
+.modal{
+  width: 100vw;
+  height: 90vh;
+  position: fixed;
+  bottom: 0px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #4771d5;
+}
+.modal-div{
+  width: 60%;
+  height: auto;
+  display: flex;
+  flex-direction:column;
+  justify-content: center;
+  align-items: center;
+}
+.cross{
+  color: red;
+  font-size: 30px;
+}
+.hamburger{
+  font-size: 30px;
+}
+.x{
+  color:#4771d5;
+}
+
+.part-1{
+  width: 40%;
+  height: 100%;
+  background-color: transparent;
+  display: flex;
+  align-items: center;
+  font-family: 'PT Sans', sans-serif;
+  font-weight: bold;
+  padding: 20px 0px;
+  padding-left: 50px;
+  font-size: 25px;
+}
+.part-2{
+width: 60%;
+height: 100%;
+display: flex;
+flex-direction: column;
+justify-content: center;
+font-family: 'PT Sans', sans-serif;
+font-weight: bold;
+}
+.uno{
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  text-decoration: none;
+  list-style: none;
+  padding-top: 15px;
+  align-items: center;
+}
+.log{
+  padding:  5px;
+  margin: 0px 10px;
+  font-family: 'PT Sans', sans-serif;
+  background-color: #4876d6;
+display: flex;
+justify-content: center;
+border-radius: 10px;
+cursor: pointer;
+margin-bottom: 10px;
+align-items: center;
+text-decoration: none;
+color: white;
+  width: 100px;
+  height: 100%;
+}
+.becfund{
+  padding:  3px;
+  margin: 0px 10px;
+  font-family: 'PT Sans', sans-serif;
+  background-color:#00ae8c;
+display: flex;
+justify-content: center;
+border-radius: 10px;
+margin-bottom: 10px;
+align-items: center;
+text-decoration: none;
+color: white;
+  width: 200px;
+  height: 100%;
+}
+.mem{
+  padding:  5px;
+  margin: 0px 10px;
+  text-decoration: none;
+  color: black;
+  cursor: pointer;
+}
+.mem:hover{
+  color:#00ae8c ;
+}
+/* home */
+.home{
+  width: 100vw;
+  height:auto;
+  display: flex;
+  flex-direction: column;
+}
+.p_2{
+  width: 50%;
+    height:100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.p_1{
+  width: 50%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  font-size: 30px;
+  font-family: 'Prosto One', cursive;
+  align-items: center;
+}
+.p_1 div{
+  width: 90%;
+  display: flex;
+  justify-content: flex-start;
+  margin: 20px 0px;
+}
+.donate_now{
+  width: 150px;
+  height: 70px;
+  background-color:#00ae8c;
+  cursor: pointer;
+  font-size: 15px;
+  border-radius: 10px;
+  padding: 5px;
+  color: white;
+  border: none;
+
+}
+.bec_fundr{
+  width: 400px;
+  margin-right:20px;
+  height: 70px;
+  background-color:#00ae8c;
+  cursor: pointer;
+  font-size: 15px;
+  border-radius: 10px;
+  padding: 5px;
+  color: white;
+  border: none;
+}
+.p_1 h3{
+  width: 90%;
+}
+.p_1 h4{
+  width: 90%;
+}
+.p_2 img{
+  width: 400px;
+  height: 400px;
+}
+.back{
+  width: 100vw;
+  height:100vh;
+  background-image: url('./asset/background.jpg');
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  background-position: center;
+  display: flex;
+  flex-direction: row;
+  object-fit: cover;
+  justify-content: center;
+  align-items: center;
+}
+/* register */
+.register {
+  width: 100vw;
+  height: 100vh;
+ background-image: url('./asset/background.jpg');
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  background-position: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.reg-form {
+  width: 424px;
+  height: 550px;
+  border-radius: 35px;
+  background-color: rgb(255, 255, 255);
+  display: flex;
+  padding-top: 71px;
+  color: rgb(0, 0, 0);
+  font-size: 20px;
+
+  flex-direction: column;
+}
+
+#mypassword{
+  border-bottom: 1px solid black;
+  border-radius: 0;
+}
+#myprofile {
+  margin: 5px 25px;
+}
+
+.reg-input {
+  color: rgb(0, 0, 0);
+  width: 375px;
+  border-radius: 15px;
+  font-size: 15px;
+  border: none;
+  margin: 15px;
+  background-color: #ffffff;
+  padding: 8px;
+  outline: #a6a4a4;
+  height: 55px;
+}
+.load {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: black;
+}
+.l-i {
+  height: 90%;
+  object-fit: cover;
+}
+.label-input-reg {
+  color: rgb(0, 0, 0);
+  font-size: 20px;
+  font-family: cursive;
+  width: 80px;
+  margin-left: 20px;
+}
+
+.reg-input-sub {
+  color: white;
+  width: 375px;
+  border-radius: 15px;
+  font-size: 20px;
+  border: none;
+  margin: 15px;
+  background-color:#00ae8c;
+    padding: 8px;
+  cursor: pointer;
+  outline: none;
+  height: 55px;
+}
+.login {
+  width: 100vw;
+  height: 100vh;
+  background-image: url('./asset/background.jpg');
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  background-position: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.login-form {
+  width: 424px;
+  height: 450px;
+  border-radius: 35px;
+  background-color: rgb(253, 253, 253);
+  display: flex;
+  padding-top: 71px;
+  color: white;
+  font-size: 20px;
+  flex-direction: column;
+}
+.login-input {
+  color: rgb(0, 0, 0);
+  width: 375px;
+  font-size: 15px;
+  border: none;
+  margin: 15px;
+  background-color:white;
+  border-bottom: 1px solid black;
+  padding: 8px;
+  outline: #a6a4a4;
+  height: 55px;
+}
+.label-input-login {
+  color: rgb(0, 0, 0);
+  font-size: 20px;
+  font-family: cursive;
+  width: 80px;
+  margin-left: 20px;
+}
+.login-input-sub {
+  color: white;
+  width: 375px;
+  font-size: 20px;
+  border-bottom: 1px solid black;
+  border: none;
+  margin: 15px;
+  background-color: #ffffffb3;
+  padding: 8px;
+  cursor: pointer;
+  outline: none;
+  height: 55px;
+}
+.raise{
+  width: 100vw;
+  height: 100vh;
+  background-image: url('./asset/background.jpg');
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  background-position: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#myprofile{
+  margin-left: 10px;
+  color: black;
+}
+.l-form{
+  width: 424px;
+  height: 650px;
+  border-radius: 35px;
+  background-color: rgb(253, 253, 253);
+  display: flex;
+  padding-top: 71px;
+  color: white;
+  font-size: 20px;
+  flex-direction: column;
+}
